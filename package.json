@@ -1,0 +1,36 @@
+{
+  "name": "client-ssr",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "pri test",
+    "start": "pri",
+    "build": "pri build",
+    "preview": "pri preview",
+    "analyse": "pri analyse",
+    "deploy": "pri build && gh-pages -d dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ascoders/client-ssr.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ascoders/client-ssr/issues"
+  },
+  "homepage": "https://github.com/ascoders/client-ssr#readme",
+  "dependencies": {
+    "pri": "^0.7.28"
+  },
+  "pri": {
+    "type": "project"
+  },
+  "tnpm": {
+    "mode": "npm"
+  },
+  "devDependencies": {
+    "gh-pages": "^1.1.0"
+  }
+}

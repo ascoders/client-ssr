@@ -1,0 +1,31 @@
+{
+  "compilerOptions": {
+    "module": "esnext",
+    "moduleResolution": "node",
+    "strict": true,
+    "strictNullChecks": false,
+    "jsx": "react",
+    "target": "esnext",
+    "experimentalDecorators": true,
+    "skipLibCheck": true,
+    "outDir": "built",
+    "rootDir": "./",
+    "lib": [
+      "dom",
+      "es5",
+      "es6",
+      "scripthost"
+    ]
+  },
+  "include": [
+    ".temp/**/*",
+    "src/**/*",
+    "config/**/*",
+    "tests/**/*"
+  ],
+  "exclude": [
+    "node_modules",
+    "built",
+    "lib"
+  ]
+}
