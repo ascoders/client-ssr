@@ -1,0 +1,1 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[0],{94:function(e,l,n){"use strict";n.r(l);var t=n(1);l.default=t.createElement("div",{className:"markdown-body"},t.createElement("div",null,t.createElement("h1",null,"Client Ssr Demo"),t.createElement("p",null,"第二次刷新时，会以 ssr 内容替换入口 html，可以查看源码看效果。"),t.createElement("p",null,"ssr 由浏览器完成，拦截由 serviceWorker 完成。")))}}]);
